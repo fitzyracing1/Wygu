@@ -39,3 +39,8 @@ python3 wygu.py
 ## Architecture notes
 
 The internal `InternalSandbox` is a deep-copy of the robot’s pose + EchoHypothesis. It is the only place the robot “thinks” about future echoes before acting. A pitch-triggered restart wipes that private world completely, forcing the robot to re-acquire its acoustic hypothesis from scratch.
+
+## Documentation
+
+- In-repo docs: [docs/](docs/index.md)
+- Wiki: [https://github.com/fitzyracing1/Wygu/wiki](https://github.com/fitzyracing1/Wygu/wiki)
